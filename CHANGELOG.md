@@ -1,3 +1,8 @@
+## 0.1.8
+
+- Update to latest dependencies
+- Update to android embedding v2
+
 ## 0.1.7
 
 - Fix null Exception at _$BluetoothDeviceFromJson and BluetoothManager.state (PR https://github.com/andrey-ushakov/flutter_bluetooth_basic/pull/26).

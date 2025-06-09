@@ -1,4 +1,5 @@
 import 'dart:convert';
+
 // import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
@@ -155,18 +156,18 @@ class _MyHomePageState extends State<MyHomePage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        OutlinedButton(
+                        ElevatedButton(
                           child: Text('connect'),
                           onPressed: _connected ? null : _onConnect,
                         ),
                         SizedBox(width: 10.0),
-                        OutlinedButton(
+                        ElevatedButton(
                           child: Text('disconnect'),
                           onPressed: _connected ? _onDisconnect : null,
                         ),
                       ],
                     ),
-                    OutlinedButton(
+                    ElevatedButton(
                       child: Text('Send test data'),
                       onPressed: _connected ? _sendData : null,
                     ),
